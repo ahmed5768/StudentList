@@ -7,17 +7,43 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+input{
+  padding-left: 4%;
+  padding-right: 7%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+ gap: 5%;
+ background-color: rgb(192, 251, 255);
+ color: black;
+
+
+}
+label{
+  color: white;
+  font-size: 17px;
+
+}
 
 /* table thead tr th{
     background-color: aqua;
 } */
 
-
-
+.sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5%;
+}
+.sec div{
+  margin-right: 5%;
+  margin-left: 10%;
+}
   
   /* button */
   .btn {
-    margin: 100px;
+    /* margin: 100px; */
+    margin: 2% 0;
     padding: 15px 40px;
     border: none;
     outline: none;
